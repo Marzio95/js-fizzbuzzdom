@@ -4,9 +4,22 @@
     box-sizing: border-box;
 }
 
+body{
+    text-align: center;
+    background-color: #083b4c;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .box{
@@ -14,6 +27,18 @@
     height: 5rem;
     line-height: 5rem;
     text-align: center;
-    background-color: yellow;
+    background-color: #1389b2;
     margin: 0.5rem;
+}
+
+.fizz_buzz{
+    background-color: #f0466f;
+}
+
+.fizz{
+    background-color: #0bd6a1;
+}
+
+.buzz{
+    background-color: #ffd166;
 }
