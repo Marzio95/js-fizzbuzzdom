@@ -15,8 +15,7 @@ for (let i = 1; i <= 100; i++) {
         let element = `<div class="box buzz">Buzz</div>`;   
         containerBox.innerHTML += element;        
     } else {
-        let element = `<div class="box">${i}</div>`;
-        containerBox.innerHTML += element;
+        
     }
 
 
