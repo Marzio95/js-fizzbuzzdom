@@ -1,8 +1,7 @@
 const containerBox = document.querySelector(".container")
 
 for (let i = 1; i <= 100; i++) {
-    let element = `<div class="box">${i}</div>`;
-    containerBox.innerHTML += element;
+    
     console.log(i);
 
     if (i % 3 == 0 && i % 5 == 0) {
@@ -15,7 +14,8 @@ for (let i = 1; i <= 100; i++) {
         element = `<div class="box buzz">Buzz</div>`;
         containerBox.innerHTML += element;
     } else {
-
+        let element = `<div class="box">${i}</div>`;
+        containerBox.innerHTML += element;
     }
 
 
